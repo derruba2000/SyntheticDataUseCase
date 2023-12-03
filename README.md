@@ -14,17 +14,17 @@ The Kaggle Travel Insurance Prediction dataset is used, which contains variables
 
 ## Methodology
 
--Data Preparation: Original dataset is preprocessed for training.
--Synthetic Data Generation: Mostly AI is used to generate 20,000 synthetic records based on 1,500 original records.
--Model Training: A simple neural network, TravelInsuranceNet, is trained on both the original and the enhanced dataset.
--Evaluation: Models are evaluated based on accuracy, precision, recall, and F1 score.
--Neural Network Architecture
--TravelInsuranceNet is a PyTorch-based neural network with the following structure:
+- Data Preparation: Original dataset is preprocessed for training.
+- Synthetic Data Generation: Mostly AI is used to generate 20,000 synthetic records based on 1,500 original records.
+- Model Training: A simple neural network, TravelInsuranceNet, is trained on both the original and the enhanced dataset.
+- Evaluation: Models are evaluated based on accuracy, precision, recall, and F1 score.
+- Neural Network Architecture
+- TravelInsuranceNet is a PyTorch-based neural network with the following structure:
 
 ### Input Layer
 
-Two Hidden Layers with ReLU activation
-Output Layer with Sigmoid activation
+- Two Hidden Layers with ReLU activation
+- Output Layer with Sigmoid activation
 
 ## Results
 
@@ -36,8 +36,8 @@ Instructions on setting up the environment, data preprocessing, model training, 
 
 ## Requirements
 
-Python 3.x
-PyTorch
+- Python 3.x
+- PyTorch
 
 ## Acknowledgements
 
